@@ -1,0 +1,371 @@
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+/*Imagen de fondo*/
+body
+{
+    background: url(../imagenes/fondoCasaCampo1.jpg);
+    background-size: 1350px 1100px;
+    
+}
+/*Estilos para index html*/
+h2
+{
+    font-size: 40px;
+    font-family: cambria;
+    background: #ffffff;
+    text-align: center;
+}
+
+/*Estilos para el menu de opciones y/o header*/
+#Menu
+{
+   
+    height: 50px;
+    background: greenyellow;
+    opacity: 0.8;
+    /*position: fixed;*/
+    
+}
+ul,ol
+{
+    list-style: none;
+}
+.opciones li a
+{
+    background-color: #000;
+    color: #fff;
+    text-decoration:none ;
+    padding: 10px 35px;
+    display: block; 
+    opacity: 0.9;
+    
+}
+.opciones li a:hover
+{
+    background-color:#434343;  
+}
+.opciones
+{
+   
+    margin-left: 90px;/*pocision del menu*/
+}
+.opciones > li
+{
+    margin-top: 5px;
+    float: left;
+    
+
+}
+.opciones li ul
+{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.opciones li:hover > ul
+{
+    display: block;
+}
+
+
+/*Estilo para el index principal*/
+#contedorIndex
+{
+    width: 500px;
+    background: #fff;
+    margin: auto;
+    margin-top: 50px;
+    padding: 5px 5px 30px 5px;
+    border-top: 35px solid #141414;
+    border-right: 35px solid #141414;
+    border-left : 35px solid #141414;
+    border-radius: 6px;
+    opacity: 0.8;
+}
+#TextoBienVenidaIndex
+{
+    text-align: center;
+    font-size: 25px;
+}
+#imagenInicioIndex
+{
+    margin-left: 150px;
+}
+#TextoIndex
+{
+    text-align: center;
+    font-size: 20px;
+}
+
+#buttonIndex
+{
+    width: 300px;
+    height: 45px;
+    border-radius: 6px;
+    background: greenyellow;
+    font-size: 20px;
+    font-family: cambria;
+    margin-left: 90px;
+}
+
+/*estilos para hoja de pie*/
+#pie
+{
+    background: greenyellow;
+    font-family: cambria;
+    font-size: 16px;
+    text-align: center;
+    opacity: 0.8;
+}
+
+/*estilos para login*/
+#cuadroLogin
+{
+    width: 330px;
+    background: #090909;/*Color de fondo del div del login*/
+    color:#ffffff;
+    margin: auto;
+    margin-top: 80px;
+    padding: 5px 5px 30px 5px;
+    border-top: 35px solid #141414;/*color de contorno arriba*/
+    border-right: 35px solid #141414;/*color de contorno derecha*/
+    border-left: 35px solid #141414;/*color de contorno izquierda*/
+    border-radius: 6px;
+    opacity: 0.7;
+}
+.entradaLoginUser
+{
+    width: 320px;
+    height: 30px;
+    border-radius: 6px;
+    font-family: cambria;
+    font-weight: 900;
+    font-size: 20px;
+}
+.entradaLoginPass
+{
+    width: 320px;
+    height: 30px;
+    border-radius: 6px;
+    font-family: cambria;
+    font-weight: 900;
+    font-size: 10px;
+}
+
+#buttonLogin
+{
+    width: 324px;
+    height: 45px;
+    border-radius: 6px;
+    background: greenyellow;
+    font-size: 20px;
+    font-family: cambria;
+
+}
+#tituloIniciarSesion
+{
+    font-size: 25px;
+    font-family: cambria;
+    padding-left: 80px; 
+}
+#subtituloUsuario
+{
+    padding-left: 125px;
+    font-size: 18px;
+   
+}
+#subtituloPass
+{
+    padding-left: 106px; 
+    font-size: 18px;
+}
+/*Estilo para la portada de bien venida*/
+#contedor
+{
+    width: 500px;
+    background: #fff;
+    margin: auto;
+    margin-top: 50px;
+    padding: 5px 5px 30px 5px;
+    border-top: 35px solid #141414;
+    border-right: 35px solid #141414;
+    border-left : 35px solid #141414;
+    border-radius: 6px;
+    opacity: 0.7;
+}
+#TextoBienVenida
+{
+    text-align: center;
+    font-size: 25px;
+}
+#imagenInicio
+{
+    margin-left: 150px;
+}
+
+/*Estilos para el formualrio de regsitro del inmueble*/
+
+#cuadroRegInmueble
+{
+    width: 500px;
+    background: #090909;
+    color:#ffffff;
+    margin: auto;
+    margin-top: 80px;
+    padding: 5px 5px 30px 5px;
+    border-top: 35px solid #141414;
+    border-right: 35px solid #141414;
+    border-left: 35px solid #141414;
+    border-radius: 6px;
+    opacity: 0.7;
+}
+
+.entradaRegInmueble
+{
+    width: 500px;
+    height: 30px;
+    border-radius: 6px;
+    font-family: cambria;
+    font-weight: 900;
+}
+
+#buttonRegInmueble
+{
+    width: 220px;
+    height: 45px;
+    border-radius: 6px;
+    background: greenyellow;
+    font-size: 20px;
+    font-family: cambria;
+    
+}
+
+#tituloRegInmueble
+{
+    font-size: 25px;
+    font-family: cambria;
+    padding-left: 80px; 
+}
+#campoInmueble
+{
+    font-size: 18px;
+}
+/*Estilos para el formualrio de regsitro del Cliente*/
+
+#cuadroRegCliente
+{
+    width: 500px;
+    background: #090909;
+    color:#ffffff;
+    margin: auto;
+    margin-top: 80px;
+    padding: 5px 5px 30px 5px;
+    border-top: 35px solid #141414;
+    border-right: 35px solid #141414;
+    border-left: 35px solid #141414;
+    border-radius: 6px;
+    opacity: 0.7;
+}
+
+.entradaRegCliente
+{
+    width: 500px;
+    height: 30px;
+    border-radius: 6px;
+    font-family: cambria;
+    font-weight: 900;
+}
+
+#buttonRegCliente
+{
+    width: 220px;
+    height: 45px;
+    border-radius: 6px;
+    background: greenyellow;
+    font-size: 20px;
+    font-family: cambria;
+    
+}
+
+#tituloRegCliente
+{
+    font-size: 25px;
+    font-family: cambria;
+    padding-left: 80px; 
+}
+#campoCliente
+{
+    font-size: 18px;
+}
+
+/*Estilos para el formualrio de regsitro del Empleado*/
+
+#cuadroRegEmpleado
+{
+    width: 500px;
+    background: #090909;
+    color:#ffffff;
+    margin: auto;
+    margin-top: 80px;
+    padding: 5px 5px 30px 5px;
+    border-top: 35px solid #141414;
+    border-right: 35px solid #141414;
+    border-left: 35px solid #141414;
+    border-radius: 6px;
+    opacity: 0.7;
+}
+
+.entradaRegEmpleado
+{
+    width: 500px;
+    height: 30px;
+    border-radius: 6px;
+    font-family: cambria;
+    font-weight: 900;
+}
+
+#buttonRegEmpleado
+{
+    width: 220px;
+    height: 45px;
+    border-radius: 6px;
+    background: greenyellow;
+    font-size: 20px;
+    font-family: cambria;
+    
+}
+
+#tituloRegEmpleado
+{
+    font-size: 25px;
+    font-family: cambria;
+    padding-left: 80px; 
+}
+#campoEmpleado
+{
+    font-size: 18px;
+}
+/*Contenedo para el portal del cliente*/
+#contedorPortalCliente
+{
+    width: 1000px;
+    background: #fff;
+    margin: auto;
+    margin-top: 50px;
+    padding: 5px 5px 30px 5px;
+    border-top: 35px solid #141414;
+    border-right: 35px solid #141414;
+    border-left : 35px solid #141414;
+    border-radius: 6px;
+    opacity: 0.7;
+    
+}
+
+h1
+{
+    text-align: center;
+}
